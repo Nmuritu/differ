@@ -53,8 +53,8 @@ if __name__ == "__main__":
         os.chdir('dist')
     
     with socketserver.TCPServer(("", PORT), SPAHandler) as httpd:
-        print(f"🚀 SPA Server running at http://localhost:{PORT}/")
-        print(f"🌍 Also accessible at http://0.0.0.0:{PORT}/ (from other devices)")
-        print("📱 Share the network URL with others to access your app online!")
+        print(f" SPA Server running at http://localhost:{PORT}/")
+        print(f" Also accessible at http://0.0.0.0:{PORT}/ (from other devices)")
+        print(" Share the network URL with others to access your app online!")
         print("Press Ctrl+C to stop the server")
         httpd.serve_forever()
