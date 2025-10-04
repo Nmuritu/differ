@@ -1,0 +1,461 @@
+{
+  "summary": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "skipped": 0,
+    "successRate": "100.00%"
+  },
+  "details": [
+    {
+      "name": "Package script: dev",
+      "status": "passed",
+      "details": "Script defined: vite --config vite.config.dev.ts",
+      "timestamp": "2025-10-04T11:42:47.725Z"
+    },
+    {
+      "name": "Package script: build",
+      "status": "passed",
+      "details": "Script defined: vite build",
+      "timestamp": "2025-10-04T11:42:47.726Z"
+    },
+    {
+      "name": "Package script: preview",
+      "status": "passed",
+      "details": "Script defined: vite preview",
+      "timestamp": "2025-10-04T11:42:47.726Z"
+    },
+    {
+      "name": "Package script: lint",
+      "status": "passed",
+      "details": "Script defined: eslint .",
+      "timestamp": "2025-10-04T11:42:47.729Z"
+    },
+    {
+      "name": "Package dependency: react",
+      "status": "passed",
+      "details": "Version: ^18.3.1",
+      "timestamp": "2025-10-04T11:42:47.730Z"
+    },
+    {
+      "name": "Package dependency: react-dom",
+      "status": "passed",
+      "details": "Version: ^18.3.1",
+      "timestamp": "2025-10-04T11:42:47.731Z"
+    },
+    {
+      "name": "Package dependency: react-router-dom",
+      "status": "passed",
+      "details": "Version: ^6.30.1",
+      "timestamp": "2025-10-04T11:42:47.734Z"
+    },
+    {
+      "name": "Package dependency: lucide-react",
+      "status": "passed",
+      "details": "Version: ^0.462.0",
+      "timestamp": "2025-10-04T11:42:47.735Z"
+    },
+    {
+      "name": "Vite config: build",
+      "status": "passed",
+      "details": "Required content found in vite.config.ts",
+      "timestamp": "2025-10-04T11:42:47.739Z"
+    },
+    {
+      "name": "Vite config: rollupOptions",
+      "status": "passed",
+      "details": "Required content found in vite.config.ts",
+      "timestamp": "2025-10-04T11:42:47.741Z"
+    },
+    {
+      "name": "Vite config: manualChunks",
+      "status": "passed",
+      "details": "Required content found in vite.config.ts",
+      "timestamp": "2025-10-04T11:42:47.744Z"
+    },
+    {
+      "name": "Vite config: chunkSizeWarningLimit",
+      "status": "passed",
+      "details": "Required content found in vite.config.ts",
+      "timestamp": "2025-10-04T11:42:47.747Z"
+    },
+    {
+      "name": "Component exists: src/App.tsx",
+      "status": "passed",
+      "details": "File exists: src/App.tsx",
+      "timestamp": "2025-10-04T11:42:47.750Z"
+    },
+    {
+      "name": "Component exists: src/pages/HomePage.tsx",
+      "status": "passed",
+      "details": "File exists: src/pages/HomePage.tsx",
+      "timestamp": "2025-10-04T11:42:47.751Z"
+    },
+    {
+      "name": "Component exists: src/pages/AIAssistantPage.tsx",
+      "status": "passed",
+      "details": "File exists: src/pages/AIAssistantPage.tsx",
+      "timestamp": "2025-10-04T11:42:47.751Z"
+    },
+    {
+      "name": "Component exists: src/pages/AdminPage.tsx",
+      "status": "passed",
+      "details": "File exists: src/pages/AdminPage.tsx",
+      "timestamp": "2025-10-04T11:42:47.755Z"
+    },
+    {
+      "name": "Component exists: src/pages/ClientChatForum.tsx",
+      "status": "passed",
+      "details": "File exists: src/pages/ClientChatForum.tsx",
+      "timestamp": "2025-10-04T11:42:47.756Z"
+    },
+    {
+      "name": "Component exists: src/pages/AdminChatForum.tsx",
+      "status": "passed",
+      "details": "File exists: src/pages/AdminChatForum.tsx",
+      "timestamp": "2025-10-04T11:42:47.757Z"
+    },
+    {
+      "name": "Component exists: src/components/ChatForum.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ChatForum.tsx",
+      "timestamp": "2025-10-04T11:42:47.759Z"
+    },
+    {
+      "name": "Component exists: src/components/RouteGuard.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/RouteGuard.tsx",
+      "timestamp": "2025-10-04T11:42:47.759Z"
+    },
+    {
+      "name": "Component exists: src/contexts/NewAuthContext.tsx",
+      "status": "passed",
+      "details": "File exists: src/contexts/NewAuthContext.tsx",
+      "timestamp": "2025-10-04T11:42:47.761Z"
+    },
+    {
+      "name": "Component exists: src/services/ChatService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/ChatService.ts",
+      "timestamp": "2025-10-04T11:42:47.763Z"
+    },
+    {
+      "name": "Component exists: src/services/AILearningService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/AILearningService.ts",
+      "timestamp": "2025-10-04T11:42:47.764Z"
+    },
+    {
+      "name": "Service exists: src/services/NewAuthService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/NewAuthService.ts",
+      "timestamp": "2025-10-04T11:42:47.766Z"
+    },
+    {
+      "name": "Service exists: src/services/ChatService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/ChatService.ts",
+      "timestamp": "2025-10-04T11:42:47.766Z"
+    },
+    {
+      "name": "Service exists: src/services/AILearningService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/AILearningService.ts",
+      "timestamp": "2025-10-04T11:42:47.767Z"
+    },
+    {
+      "name": "Service exists: src/services/ImageService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/ImageService.ts",
+      "timestamp": "2025-10-04T11:42:47.767Z"
+    },
+    {
+      "name": "Service exists: src/services/DataMigrationService.ts",
+      "status": "passed",
+      "details": "File exists: src/services/DataMigrationService.ts",
+      "timestamp": "2025-10-04T11:42:47.768Z"
+    },
+    {
+      "name": "UI component exists: src/components/ui/button.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ui/button.tsx",
+      "timestamp": "2025-10-04T11:42:47.769Z"
+    },
+    {
+      "name": "UI component exists: src/components/ui/card.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ui/card.tsx",
+      "timestamp": "2025-10-04T11:42:47.770Z"
+    },
+    {
+      "name": "UI component exists: src/components/ui/input.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ui/input.tsx",
+      "timestamp": "2025-10-04T11:42:47.770Z"
+    },
+    {
+      "name": "UI component exists: src/components/ui/badge.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ui/badge.tsx",
+      "timestamp": "2025-10-04T11:42:47.771Z"
+    },
+    {
+      "name": "UI component exists: src/components/ui/scroll-area.tsx",
+      "status": "passed",
+      "details": "File exists: src/components/ui/scroll-area.tsx",
+      "timestamp": "2025-10-04T11:42:47.771Z"
+    },
+    {
+      "name": "Public asset exists: public/index.html",
+      "status": "passed",
+      "details": "File exists: public/index.html",
+      "timestamp": "2025-10-04T11:42:47.775Z"
+    },
+    {
+      "name": "Public asset exists: public/images/single-room.jpg",
+      "status": "passed",
+      "details": "File exists: public/images/single-room.jpg",
+      "timestamp": "2025-10-04T11:42:47.776Z"
+    },
+    {
+      "name": "Public asset exists: public/images/double-room.jpg",
+      "status": "passed",
+      "details": "File exists: public/images/double-room.jpg",
+      "timestamp": "2025-10-04T11:42:47.777Z"
+    },
+    {
+      "name": "Public asset exists: public/images/suite.jpg",
+      "status": "passed",
+      "details": "File exists: public/images/suite.jpg",
+      "timestamp": "2025-10-04T11:42:47.777Z"
+    },
+    {
+      "name": "Public asset exists: public/images/default-profile.svg",
+      "status": "passed",
+      "details": "File exists: public/images/default-profile.svg",
+      "timestamp": "2025-10-04T11:42:47.778Z"
+    },
+    {
+      "name": "TypeScript config exists",
+      "status": "passed",
+      "details": "File exists: tsconfig.json",
+      "timestamp": "2025-10-04T11:42:47.779Z"
+    },
+    {
+      "name": "TSConfig: compilerOptions",
+      "status": "passed",
+      "details": "Required content found in tsconfig.json",
+      "timestamp": "2025-10-04T11:42:47.780Z"
+    },
+    {
+      "name": "TSConfig: include",
+      "status": "passed",
+      "details": "Required content found in tsconfig.json",
+      "timestamp": "2025-10-04T11:42:47.781Z"
+    },
+    {
+      "name": "TSConfig: exclude",
+      "status": "passed",
+      "details": "Required content found in tsconfig.json",
+      "timestamp": "2025-10-04T11:42:47.782Z"
+    },
+    {
+      "name": "Tailwind config exists",
+      "status": "passed",
+      "details": "File exists: tailwind.config.ts",
+      "timestamp": "2025-10-04T11:42:47.783Z"
+    },
+    {
+      "name": "Tailwind config: content",
+      "status": "passed",
+      "details": "Required content found in tailwind.config.ts",
+      "timestamp": "2025-10-04T11:42:47.784Z"
+    },
+    {
+      "name": "Tailwind config: theme",
+      "status": "passed",
+      "details": "Required content found in tailwind.config.ts",
+      "timestamp": "2025-10-04T11:42:47.785Z"
+    },
+    {
+      "name": "Tailwind config: plugins",
+      "status": "passed",
+      "details": "Required content found in tailwind.config.ts",
+      "timestamp": "2025-10-04T11:42:47.785Z"
+    },
+    {
+      "name": "Build script exists: apache-local.sh",
+      "status": "passed",
+      "details": "File exists: apache-local.sh",
+      "timestamp": "2025-10-04T11:42:47.788Z"
+    },
+    {
+      "name": "Build script executable: apache-local.sh",
+      "status": "passed",
+      "details": "Script is executable",
+      "timestamp": "2025-10-04T11:42:47.791Z"
+    },
+    {
+      "name": "Build script exists: cloudflare-tunnel.sh",
+      "status": "passed",
+      "details": "File exists: cloudflare-tunnel.sh",
+      "timestamp": "2025-10-04T11:42:47.791Z"
+    },
+    {
+      "name": "Build script executable: cloudflare-tunnel.sh",
+      "status": "passed",
+      "details": "Script is executable",
+      "timestamp": "2025-10-04T11:42:47.792Z"
+    },
+    {
+      "name": "Build script exists: vercel-deploy.sh",
+      "status": "passed",
+      "details": "File exists: vercel-deploy.sh",
+      "timestamp": "2025-10-04T11:42:47.792Z"
+    },
+    {
+      "name": "Build script executable: vercel-deploy.sh",
+      "status": "passed",
+      "details": "Script is executable",
+      "timestamp": "2025-10-04T11:42:47.793Z"
+    },
+    {
+      "name": "Build script exists: netlify-deploy.sh",
+      "status": "passed",
+      "details": "File exists: netlify-deploy.sh",
+      "timestamp": "2025-10-04T11:42:47.793Z"
+    },
+    {
+      "name": "Build script executable: netlify-deploy.sh",
+      "status": "passed",
+      "details": "Script is executable",
+      "timestamp": "2025-10-04T11:42:47.793Z"
+    },
+    {
+      "name": "Build script exists: railway-deploy.sh",
+      "status": "passed",
+      "details": "File exists: railway-deploy.sh",
+      "timestamp": "2025-10-04T11:42:47.794Z"
+    },
+    {
+      "name": "Build script executable: railway-deploy.sh",
+      "status": "passed",
+      "details": "Script is executable",
+      "timestamp": "2025-10-04T11:42:47.794Z"
+    },
+    {
+      "name": "Documentation exists: README.md",
+      "status": "passed",
+      "details": "File exists: README.md",
+      "timestamp": "2025-10-04T11:42:47.795Z"
+    },
+    {
+      "name": "Documentation exists: FIXES_SUMMARY.md",
+      "status": "passed",
+      "details": "File exists: FIXES_SUMMARY.md",
+      "timestamp": "2025-10-04T11:42:47.797Z"
+    },
+    {
+      "name": "Documentation exists: PROMPT_LIMIT_SUMMARY.md",
+      "status": "passed",
+      "details": "File exists: PROMPT_LIMIT_SUMMARY.md",
+      "timestamp": "2025-10-04T11:42:47.798Z"
+    },
+    {
+      "name": "Documentation exists: DEPLOYMENT_GUIDE.md",
+      "status": "passed",
+      "details": "File exists: DEPLOYMENT_GUIDE.md",
+      "timestamp": "2025-10-04T11:42:47.802Z"
+    },
+    {
+      "name": "Documentation exists: GLOBAL_HOSTING.md",
+      "status": "passed",
+      "details": "File exists: GLOBAL_HOSTING.md",
+      "timestamp": "2025-10-04T11:42:47.802Z"
+    },
+    {
+      "name": "Documentation exists: APACHE_HOSTING.md",
+      "status": "passed",
+      "details": "File exists: APACHE_HOSTING.md",
+      "timestamp": "2025-10-04T11:42:47.803Z"
+    },
+    {
+      "name": "Code quality: Console.log statements in src/App.tsx",
+      "status": "passed",
+      "details": "No console.log found",
+      "timestamp": "2025-10-04T11:42:47.807Z"
+    },
+    {
+      "name": "Code quality: TODO comments in src/pages/AIAssistantPage.tsx",
+      "status": "passed",
+      "details": "No TODO found",
+      "timestamp": "2025-10-04T11:42:47.810Z"
+    },
+    {
+      "name": "Code quality: FIXME comments in src/services/ChatService.ts",
+      "status": "passed",
+      "details": "No FIXME found",
+      "timestamp": "2025-10-04T11:42:47.811Z"
+    },
+    {
+      "name": "Security: Hardcoded passwords in src/services/NewAuthService.ts",
+      "status": "passed",
+      "details": "No Hardcoded passwords found",
+      "timestamp": "2025-10-04T11:42:47.820Z"
+    },
+    {
+      "name": "Security: Hardcoded API keys in src/services/NewAuthService.ts",
+      "status": "passed",
+      "details": "No Hardcoded API keys found",
+      "timestamp": "2025-10-04T11:42:47.822Z"
+    },
+    {
+      "name": "Security: Hardcoded secrets in src/services/NewAuthService.ts",
+      "status": "passed",
+      "details": "No Hardcoded secrets found",
+      "timestamp": "2025-10-04T11:42:47.823Z"
+    },
+    {
+      "name": "Security: Hardcoded passwords in src/services/ChatService.ts",
+      "status": "passed",
+      "details": "No Hardcoded passwords found",
+      "timestamp": "2025-10-04T11:42:47.827Z"
+    },
+    {
+      "name": "Security: Hardcoded API keys in src/services/ChatService.ts",
+      "status": "passed",
+      "details": "No Hardcoded API keys found",
+      "timestamp": "2025-10-04T11:42:47.827Z"
+    },
+    {
+      "name": "Security: Hardcoded secrets in src/services/ChatService.ts",
+      "status": "passed",
+      "details": "No Hardcoded secrets found",
+      "timestamp": "2025-10-04T11:42:47.833Z"
+    },
+    {
+      "name": "Security: Hardcoded passwords in src/contexts/NewAuthContext.tsx",
+      "status": "passed",
+      "details": "No Hardcoded passwords found",
+      "timestamp": "2025-10-04T11:42:47.838Z"
+    },
+    {
+      "name": "Security: Hardcoded API keys in src/contexts/NewAuthContext.tsx",
+      "status": "passed",
+      "details": "No Hardcoded API keys found",
+      "timestamp": "2025-10-04T11:42:47.840Z"
+    },
+    {
+      "name": "Security: Hardcoded secrets in src/contexts/NewAuthContext.tsx",
+      "status": "passed",
+      "details": "No Hardcoded secrets found",
+      "timestamp": "2025-10-04T11:42:47.840Z"
+    }
+  ],
+  "timestamp": "2025-10-04T11:42:47.847Z",
+  "environment": {
+    "nodeVersion": "v20.19.2",
+    "platform": "linux",
+    "arch": "x64"
+  }
+}
