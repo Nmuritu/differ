@@ -45,17 +45,17 @@ sudo apt-get install -y nodejs
 ## Output Example
 
 ```
-🌐 Starting Apache Local Server...
-✅ Using port 8080
-🏗️ Building React app...
-✅ Using Python3 HTTP server
+ Starting Apache Local Server...
+ Using port 8080
+ Building React app...
+ Using Python3 HTTP server
 
-🚀 Starting server on port 8080...
-🌍 Your app is accessible at:
+ Starting server on port 8080...
+ Your app is accessible at:
    • http://localhost:8080
    • http://192.168.1.100:8080 (from other devices on your network)
 
-📱 Share the network URL with others to access your app online!
+ Share the network URL with others to access your app online!
 ```
 
 ## Troubleshooting
