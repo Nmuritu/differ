@@ -3,7 +3,7 @@
 # Apache Local Server (No Root Required)
 # This script builds and serves your React app using Apache-like HTTP server
 
-echo "🌐 Starting Apache Local Server..."
+echo " Starting Apache Local Server..."
 
 # Function to get local IP
 get_local_ip() {
@@ -31,30 +31,30 @@ check_port() {
 # Find available port
 PORT=8080
 while check_port $PORT; do
-    echo "⚠️  Port $PORT is in use, trying $((PORT + 1))..."
+    echo "  Port $PORT is in use, trying $((PORT + 1))..."
     PORT=$((PORT + 1))
 done
 
-echo "✅ Using port $PORT"
+echo " Using port $PORT"
 
 # Build the app
-echo "🏗️ Building React app..."
+echo " Building React app..."
 if ! npm run build; then
-    echo "❌ Build failed. Please check for errors."
+    echo " Build failed. Please check for errors."
     exit 1
 fi
 
 # Check if dist directory exists
 if [ ! -d "dist" ]; then
-    echo "❌ dist directory not found. Build may have failed."
+    echo " dist directory not found. Build may have failed."
     exit 1
 fi
 
 # Copy .htaccess file for Apache SPA routing
 if [ -f "dist/.htaccess" ]; then
-    echo "✅ .htaccess file found for SPA routing"
+    echo " .htaccess file found for SPA routing"
 else
-    echo "⚠️  .htaccess file not found - SPA routing may not work properly"
+    echo "  .htaccess file not found - SPA routing may not work properly"
 fi
 
 # Get local IP
@@ -62,14 +62,14 @@ LOCAL_IP=$(get_local_ip)
 
 # Choose server method
 if command -v python3 &> /dev/null; then
-    echo "✅ Using Python3 HTTP server"
+    echo " Using Python3 HTTP server"
     echo ""
-    echo "🚀 Starting server on port $PORT..."
-    echo "🌍 Your app is accessible at:"
+    echo " Starting server on port $PORT..."
+    echo " Your app is accessible at:"
     echo "   • http://localhost:$PORT"
     echo "   • http://$LOCAL_IP:$PORT (from other devices on your network)"
     echo ""
-    echo "📱 Share the network URL with others to access your app online!"
+    echo " Share the network URL with others to access your app online!"
     echo "Press Ctrl+C to stop the server"
     echo ""
     
@@ -83,24 +83,24 @@ if command -v python3 &> /dev/null; then
     PORT=$PORT python3 spa-server.py
     
 elif command -v node &> /dev/null; then
-    echo "✅ Using Node.js HTTP server"
+    echo " Using Node.js HTTP server"
     
     # Install http-server if not available
     if ! command -v http-server &> /dev/null; then
-        echo "📦 Installing http-server..."
+        echo " Installing http-server..."
         if ! npm install -g http-server; then
-            echo "❌ Failed to install http-server. Please install manually: npm install -g http-server"
+            echo " Failed to install http-server. Please install manually: npm install -g http-server"
             exit 1
         fi
     fi
     
     echo ""
-    echo "🚀 Starting server on port $PORT..."
-    echo "🌍 Your app is accessible at:"
+    echo " Starting server on port $PORT..."
+    echo " Your app is accessible at:"
     echo "   • http://localhost:$PORT"
     echo "   • http://$LOCAL_IP:$PORT (from other devices on your network)"
     echo ""
-    echo "📱 Share the network URL with others to access your app online!"
+    echo " Share the network URL with others to access your app online!"
     echo "Press Ctrl+C to stop the server"
     echo ""
     
@@ -170,7 +170,7 @@ EOF
     node spa-server.js
     
 else
-    echo "❌ Neither Python3 nor Node.js found"
+    echo " Neither Python3 nor Node.js found"
     echo "Please install one of them to use this script:"
     echo "  • Python3: sudo apt install python3"
     echo "  • Node.js: curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install -y nodejs"
