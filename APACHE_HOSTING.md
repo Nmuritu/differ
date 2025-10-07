@@ -181,4 +181,4 @@ Once running, your app will be accessible:
 - **Network**: `http://[YOUR_IP]:8080`
 - **Apache**: `http://thika-booking.local` (after full setup)
 
-Choose the method that best fits your needs! 🚀
+Choose the method that best fits your needs! 
